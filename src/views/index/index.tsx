@@ -15,7 +15,7 @@ const MainIndex: React.FC = () => {
 			name: '张三'
 		})))
 	// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [dispatch])
+	}, [])
 
 	return (
 		<div>
