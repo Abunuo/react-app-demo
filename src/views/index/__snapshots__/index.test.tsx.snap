@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainIndex show Dom 1`] = `
+<div>
+  <h1>
+    index
+  </h1>
+</div>
+`;
