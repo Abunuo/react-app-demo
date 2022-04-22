@@ -11,6 +11,7 @@ const MainLayout = lazy(() => import('@/layouts/main'))
 // views
 const MainIndex = lazy(() => import("@/views/index"));
 const UserManage = lazy(() => import("@/views/user-manage"));
+const TestHook = lazy(() => import("@/views/test-hook"));
 
 // login
 const Login = lazy(() => import("@/views/login"));
@@ -26,6 +27,7 @@ const AdminRoute = () => {
           <Route path="/" element={<MainLayout title="后台管理系统" />}>
             <Route index element={<MainIndex />} />
             <Route path="user-manage" element={<UserManage />} />
+            <Route path="test-hook" element={<TestHook />} />
           </Route>
           <Route path="login" element={< Login/>} />
           <Route path="*" element={<NoMatch />} />
